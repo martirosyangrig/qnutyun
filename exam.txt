@@ -1,0 +1,548 @@
+1. Թվարկել բոլոր թայփերը մեկնաբանելով և սահմանելով յուրաքանչյուրի աշխատանքը (բացառությամբ Symbol)
+
+goyutyun unen 2 tipi typer
+
+primitiv types - number, string, boolean, null, undefined, NaN, bigint 
+
+number = 1, 0.5, -8 ... typof(1) = number, typeof(Number) = function, typeof(Number()) = number
+
+string = "", "barev dze", 'helo', ` 12 355`, typeof(String) = function, typeof(String()) = string
+
+boolean = true, false, 0 === false, 1 === true, typeof(Boolean) = function, typeof(Boolean()) = Boolean
+
+null = datarkutyun, vochinch chka, typeof(null) = object
+
+undefined = chi gtnvel, typeof(undefined) = undefined
+
+NaN = not a number, typeof(NaN) = undefined
+
+bigint = mec tveri het ashxatelu , typeof(12n) = bigint
+
+
+
+
+referance types - object, function, array, new date(), new error(), new regexp()
+
+
+object = {} , typeof(Object) = function, typeof(Object()) = object
+
+function = a() {}, typeof(function(){}) = functioni, protootype objecta
+
+array = [ 1, 2 "g", true], typeof(Array) = function, typeof(Array()) = object, typeof([1,2 55]) = object
+
+new Date() = amsatveri het ashxatelu, typeof(new Date()) = object,
+
+new Error() = stexcum enq errorner, typeof(new Error()) = object
+
+new RegExp() = der chenq ancel, typeof(new RegExp()) = object
+
+
+
+
+
+
+
+
+
+
+
+
+2. Ինչ տարբերություններ կան LET-ի, CONST-ի և VAR-ի միջև | 3. Թվարկել տեսանելիության դաշտերը և սահմանել
+ իրենց տարբերությունները
+ 
+ (2 ev errord harcerin patasxanel em miangamic)
+
+
+minjev es 6 goyutyun uner miayn var tipi popoxakan
+heto avelacan let ev cosnt 
+
+consti depqum menq arjeqe chenq karox poxel 
+var tipi popoxakannere i tarberutyun let ev const i chen entarkvum block scopi kannonerin 
+sakayn entarkvum en function scopin qani vor ayn aveli  xist e ev durs chi galis nra sahmaneric
+
+let ev conste hasaneli en miayn ayn scopum vortex nranq stexcvel en ev ayd scopi mej gtnvox scoperum
+
+
+
+
+
+
+4. Ի՞նչ տարբերություն կա Block Scope-ի և Function scope-ի միջև
+
+injpes arden asecinq function scope aveli xista ev nra mej stexcvac cankacac tipi popoxakan hasaneli e miayn nra mej 
+nuynisk var tipinnere
+
+isk block scopi depqum var tipi popoxakannere durse galis nra sahmanneric  isk lete ev conste voch
+
+
+
+
+
+
+
+
+5. Ինչո՞վ են վտանգավոր գլոբալ փոփոխականներն ու var-երը
+
+global popoxakannere vtangavor en nranov vor nranq hasaneliutyun unen amen tex 
+ev mi qani hazar tox kodi depqum karox en lurj xndirner arajacnel
+
+vareri depqum nshecinq vor nranq durs en galis block scopi sahamaneric ev nuyn dzevov
+xndir en arajacnum
+
+
+
+
+
+6. Թվարկել ֆունկցիաները ըստ իրենց անունների ու մեկնաբանել իրենց աշխատանքը
+
+funkcianere linum en 3 tesal
+
+function declaration
+function expression
+arrow Function
+
+function declaratione
+ stexceluc karox enq kanchel cankacac tex nuynisk 
+iren stexceluc araj qanzi interpretatore nran bardzacnum e amenavereve
+
+stexcum enq ayspes function functioni_anun() {}
+
+function expression
+
+i tarberutyun declerationi ayn karox enq kanchel miayn ir stexcveluc heto
+
+const any = function(){};  chmorananq ket storaketi masin)
+
+arrow functione grete nuyn expressionna greladzevi aveli hesht tarberakaov
+
+const any = () => {}; 
+
+
+
+
+
+
+
+7. ինչ տարբերություն կա postfix և prefix գրելաձևի միջև, ու որ դեպքերում ենք իրենց օգտագործում
+
+postfix - any++
+prefix - ++any
+
+tarberutyune kayanum e nranum vor post fixi depqum na ashxatacnelu e arajin arjeqi depqum 
+heto nor avelacni 1 ov (orinak let a = 1; console.log(a++); kstananq cosnolum 1)
+
+isk prefixi depqum avelacnum e ev henc ayd arjeqov el stanum enq (orinak let a = 1; console.log(++a); kstananq cosnolum 2)
+
+
+
+
+
+
+
+
+8. Մեկնաբանել null-ի և undefined-ի տարբերությունները
+
+undefinede irenic nerkayacnum e tip isk null datark object (vochnchutyun, ban chka)
+
+undefined aysinqn stexcvel e bayc voch mi arjeq chi trvel
+null henc inqe arjeqe (datarkutyun)
+
+
+
+
+
+
+
+
+
+9.HTML-ում script թեգը միացնելու ամենահարմար վայրը դա ... շարունակել միտքը և սահմանել թե ինչու
+
+da body pakvox tegi henc verevi hatvacum e aysinqn
+<body>
+
+
+<script></script>
+</body>
+
+inju vorovhetev mer js fayle danadaxacnum e mer dom ev brausere chi hascnum kardal mer html amboxjutyamb 
+dra hamar amenachisht texe aydex e
+
+
+
+
+
+
+
+
+
+10. JavaScript-ը արդյո՞ք կարող է բրաուզերում աշխատել առանց HTML-ի, գրեք այո կամ ոչ
+ 
+ - ayo, karox em asel inju bayc pahanjum chka tal bacatrutyun)
+
+
+
+
+
+
+
+
+
+
+11. թվարկեք Boolean օպերատորները և սահմանեք նրանց նշանակություններն ու անունները
+
+bolean operatonern en 
+true
+false
+
+petq e hishel vor nuyn dzevov 0 da false e isk 1 true
+
+booleanere ogtagorcvum en statmentneri mej himnakanum ev nmanatip texerum
+
+
+
+
+
+
+
+
+12.ինչ տարբերություն կա այս օպերատոների միջև ==, ===
+
+tarberutyune kayanum e nranum vor,
+== depqum menq stugum enq miayn valuen
+=== stugum enq ev valuen ev typeof
+
+5 == "5" - true
+5 === "5" - false
+
+
+
+
+
+
+
+
+13. ինչ տարբերություն կա պրիմիտիվ և հղումային թայփերի միջև
+
+tarberutyune hetevyalne 
+primitiv typeri depqum menq amen popoxakani hamar unenq valui hamar hatkacvac tex
+ete grenq
+let a = 5;
+let b = 5;
+b = 12;
+
+aystex menq mer a i arjeqe chenq korcnum a mnum e 5 b poxvum e 12
+
+hxumayin typeri jamanak amen inj aydqan el aydpes che
+
+orinak
+
+let any = {
+    name: "grig
+};
+
+let bany = a;
+bany.name = "hi"
+
+aystex menq voch miayn poxecinq bany objecti anune ayl nayev any objecti name
+
+ayspisov petq e zguysh linel ashxatelov hxumayin tayperi het vorovhetev 
+veragreluc nranc hascenere nuyn en darnum
+
+
+
+
+
+
+
+
+
+
+
+
+14. ինչի՞ համար են օգտագործվում BREAK և CONTINUE օպերատորները և ո՞րտեղ
+
+
+break ogtagorcum enq cikle kam switche mer paymani chisht linelu depqum anjatel, durs gal ayspes asac
+continue ogtagorcum enq nuympes nuyn texerum hamapatasxan paymane shrjancelu hamar:
+
+
+orinak berem loopi mej
+
+let i = 0;
+
+while(i <= 5){
+    if(i === 2){
+        break;
+    }
+    console.log(i);
+}
+
+ays depqum consolum kunenanq 0, 1
+
+while(i <= 5){
+    if(i === 2){
+        continue;
+    }
+    console.log(i);
+}
+
+ays depqum consolum kunenanq 0, 1, 3, 4, 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+15. Ո՞ր մաթեմատիկական օպերատորի դեպքում և ո՞ր պագայաում console-ում կարող ենք ստանալ infinity
+
+anverj loopi depqum 
+aysinqn ete mer cikli paymane misht true e ev break gorcoxutyun chunenq consolum 
+
+orinak
+
+let i = 5;
+while(i >= 2){
+    console.log(i);
+    i++;
+}
+
+
+
+
+
+
+
+
+
+
+16. ի՞նչ է նշանակում NaN և ո՞ր դեպքում կարող ենք իրեն ստանալ
+
+NaN - not a number, tiv che
+
+injpes stanal? parz!
+himnakanum matematikakan gorcoxutyuneri jamanak 
+
+
+
+
+
+
+
+
+
+
+17. ի՞նչ է նշանակում NPM
+
+npm - node package manager
+
+ayn mi "gorcaran e" vortexic menq karox enq mer proekti ev mez hamar
+nerbernel gorciqner vore kheshtacni mer ashxatanqe!
+
+
+
+
+
+
+
+
+
+
+18. Ինչպե՞ս ենք NPM-ը միացնում մեր պրոյեկտին
+
+ete arden nerbernel enq node
+
+bacum enq mer proekti foldere terminali mej
+npm init hramanov patasxanum harcerin ev verj
+
+harcerin avtomat kerpov yes patasxanelu hamar - npm init -y 
+
+
+
+
+
+
+
+
+
+
+19. Ի՞նչ package-ներ գիտեք և ինչպե՞ս եք դրանք ավելացրել ձեր պրոյեկտի մեջ
+
+jshint
+terminali mej nax petq e global instal anenq - npm install -g jshint
+heto mer proekti mej vorpes dev dependecy -- npm install --save-dev jshint
+
+lodash
+ npm i -g npm
+ npm i --save lodash
+
+ i tarberutyun jshinti proekte uni kaxvacutyun ays package ic voch te menq
+
+
+
+
+
+
+
+
+ 20. Ի՞նչ տարբերություն կա DevDependecy-ի և Dependecy-ի միջև
+
+ Dependecy jamanak package proekti hamar e(kaxvacutyun uni proekte)
+ DevDependecy jamanak package developeri hamar e (kaxvacutyun uni developere)
+
+
+
+
+
+
+
+
+ 21 - 30 . karox eq tesnel exam.js fayli mej
+
+
+
+
+
+ 31.
+typeof true  - boolean
+typeof false - boolean
+typeof function () {} - function
+typeof null - object
+typeof [] - object 
+typeof {} - object
+typeof " " - string 
+typeof 0 - number
+typeof 1 - number
+typeof NaN - number 
+typeof undefined - undefined 
+typeof Object - function
+typeof Object() - object 
+typeof Array - function
+typeof Array() - object
+typeof Boolean - function 
+typeof Boolean() - boolean
+
+
+
+32. NaN || 2 || undefined -- 2
+
+33. NaN && 2 && undefined -- chgitem 
+
+34. 1 && 2 && 3 -- 3
+
+35. !1 && 2 || !3 -- false
+
+36. 25 || null && !3 -- chgitem
+
+37. NaN || null || !3 || undefined || 5 -- erevi 5
+
+38. NaN || null && !3 && undefined || 5 -- erevi 5
+
+39. 5 === 5 && 3 > 1 || 5 -- true
+
+40. 10 <= 8 && !9 || 10 > 5 -- true
+
+
+41.
+const a = true, b = false; 
+
+console.log(!a)  -- false
+console.log(!b)  -- true
+
+
+42.
+const a = true, b = false, c = 4; 
+
+console.log(a || b);     ---- true
+console.log(b || b);     ---- false
+console.log((c>2) || (c<2));  ---- true
+
+
+
+43.
+const a = true, b = false; const c = 4; 
+
+console.log(a && a);    ---- false
+console.log(a && b);    ---- false
+console.log((c > 2) && (c < 2));   --- false
+
+
+
+
+44.
+const a = 2, b = 'hello'; 
+console.log(a !== 2);   ---- false
+console.log(a !== '2');  --- true
+console.log(b !== 'Hello'); --- true
+
+
+
+
+45.
+console.log( true || true );  --- true
+console.log( false || true ); --- true  
+console.log( true || false ); --- true
+console.log( false || false ); --- false
+
+
+
+
+46.
+Ինչ կստանանք կոնսոլի մեջ let x = 4; 
+do { 
+        console.log("FALSE");
+        x++; 
+    } while (x > 4 && x > 6)
+
+    mi hat FALSE
+
+
+
+
+
+47.
+console.log( 1 || 0 );  --- 1
+console.log( null || 1 ); --- 1
+console.log( null || 0 || 1 ); --- 1 
+console.log( undefined || null || 0 ); --- 0 
+console.log( null || 2 && 3 || 4 ); --- 4
+
+
+
+48.
+if (-1 || 0) console.log( 'first' );  --- first
+if (-1 && 0) console.log( 'second' );  --- vochmi ban
+if (null || -1 && 1) console.log( 'third' ); --- third
+
+
+
+
+
+49.
+console.log(!undefined); --- true
+console.log(!null); --- true
+console.log(!20); --- false
+console.log(!0); --- true
+console.log(!NaN); --- true 
+console.log(!{});  --- false
+console.log(!''); --- false
+console.log(!'OK'); --- false
+ console.log(!false); --- true 
+ console.log(!true);  --- false
+
+
+
+ 50.
+ const a = 5, b = 10; 
+ 
+ (a != b) && (a < b);  --- true
+ (a > b) || (a == b); --- false
+ (a < b) || (a == b);  --- false
+ !(a < b);  ---- false
+ !(a > b);  --- true
